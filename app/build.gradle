@@ -7,8 +7,8 @@ android {
         applicationId "ir.rightel.momir.gradletutorial"
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 1
-        versionName "1.0"
+//        versionCode 1
+//        versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -21,20 +21,19 @@ android {
     productFlavors {
         free{
             applicationId "ir.rightel.momir.gradletutorial.free"
+            versionCode 1
+            versionName "1.0.0"
         }
         paid{
             applicationId "ir.rightel.momir.gradletutorial.paid"
+            versionCode 1
+            versionName "1.0.1"
 
         }
     }
 
 }
 
-//productFlavors{
-//    paid{
-//        minSdkVersion 15
-//    }
-//}
 
 
 dependencies {
